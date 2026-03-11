@@ -1,6 +1,5 @@
 #include<iostream>
 #include <vector>
-#include <iomanip>
 using namespace std;
 
 using pii = pair<int,double>;
@@ -27,8 +26,8 @@ int main(){
     int t;
     cin >> t;
     while(t--){
-        int n,m,k;
-        cin >> n >> m >> k;
+        int n,m,T;
+        cin >> n >> m >> T;
         vector<double> ans(n+1,0.0);
         vector<vector<pii>> gr(n+1);
         int x,y;
@@ -38,11 +37,10 @@ int main(){
             gr[x].push_back({y,w});
         }
 
-        dfs(1, k, 1.0, gr, ans);
+        dfs(1, T, 1.0, gr, ans);
         int mxProb = max_element(ans.begin(),ans.end()) - ans.begin();
 
-        cout << mxProb << " ";
-        cout << fixed << setprecision(6) << ans[mxProb] << endl;
+        printf("%d %.6lf\n", mxProb, ans[mxProb]);
     }
     
 }

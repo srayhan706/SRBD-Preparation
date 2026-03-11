@@ -49,8 +49,13 @@ int main() {
             g[u].push_back(v);     // directed edge u -> v
         }
 
-        for(int i = 1; i <= n && cyc.empty(); i++)
-            if(!vis[i]) dfs(i);
+        for(int i = 1; i <= n && cyc.empty(); i++){
+             if(!vis[i]){
+                dfs(i);
+             } 
+
+        }
+           
 
         cout << "#" << tc << " ";
         if(cyc.empty()) {

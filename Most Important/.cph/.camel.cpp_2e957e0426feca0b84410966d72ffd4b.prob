@@ -1,0 +1,1 @@
+{"name":"Local: camel","url":"/Users/mdsharifulislamrayhan/SRBD/Most Important/camel.cpp","tests":[{"id":1773218191423,"input":"2\n4\n1 2 8 9\n6\n14 45 73 86 95 98","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/mdsharifulislamrayhan/SRBD/Most Important/camel.cpp","group":"local","local":true}

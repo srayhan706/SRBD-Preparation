@@ -37,6 +37,8 @@ int main(){
                             continue;
                         }
 
+                        //remember this
+
                         if(adjmat[u][v]==0){
                             continue;
                         }
@@ -50,6 +52,7 @@ int main(){
             int ans=INF;
             int fullmask=(1<<n)-1;
             for(int i=1;i<n;i++){
+                //remember unreachable condition
                 if(adjmat[i][0] != 0){
                      ans=min(ans,dp[fullmask][i]+adjmat[i][0]);
 

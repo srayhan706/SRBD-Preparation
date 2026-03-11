@@ -4,8 +4,8 @@
 #include <climits>
 using namespace std;
 
-int dx[4] = {1,-1,0,0};
-int dy[4] = {0,0,1,-1};
+int dx[4] = {-1,1,0,0};
+int dy[4] = {0,0,-1,1};
 
 vector<vector<int>> bfs(int sx, int sy, vector<vector<int>>& grid, int n) {
     vector<vector<int>> dist(n, vector<int>(n, -1));

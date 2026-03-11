@@ -1,0 +1,1 @@
+{"name":"Local: poweenergy","url":"/Users/mdsharifulislamrayhan/SRBD/Practice/poweenergy.cpp","tests":[{"id":1773219062250,"input":"3000\n10\n4 5 2 3 6\n200 210 230 235 215","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/mdsharifulislamrayhan/SRBD/Practice/poweenergy.cpp","group":"local","local":true}

@@ -9,7 +9,7 @@ int main()
     for (int i = 0; i < n; i++)
         cin >> a[i];
     sort(a, a + n, greater<int>());
-    int d = n - 1;
+    
     int j = 0;
     long long ans = 0;
     long long prev = 0;
