@@ -1,0 +1,1 @@
+{"name":"Local: nodesum","url":"/Users/mdsharifulislamrayhan/SRBD/nodesum.cpp","tests":[{"id":1772952377053,"input":"2\n(0(5(16()())(4()(9()())))(7(1()())(3()())))","output":"24"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/mdsharifulislamrayhan/SRBD/nodesum.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: flipcolumn","url":"/Users/mdsharifulislamrayhan/SRBD/flipcolumn.cpp","tests":[{"id":1772946683764,"input":"3 3 2\n1 0 0\n1 0 1\n1 0 0","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/mdsharifulislamrayhan/SRBD/flipcolumn.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: fisherman","url":"/Users/mdsharifulislamrayhan/SRBD/fisherman.cpp","tests":[{"id":1773028803002,"input":"10\n4 6 10\n5 2 2","output":"18"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/mdsharifulislamrayhan/SRBD/fisherman.cpp","group":"local","local":true}
