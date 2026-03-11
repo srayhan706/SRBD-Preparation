@@ -1,0 +1,1 @@
+{"name":"Local: nodetest","url":"/Users/mdsharifulislamrayhan/SRBD/nodetest.cpp","tests":[{"id":1773242492673,"input":"1\n2\n(0(5(16()())(4()(9()())))(7(1()())(3()())))","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/mdsharifulislamrayhan/SRBD/nodetest.cpp","group":"local","local":true}
